@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .house-gryffindor {
+    @apply bg-red-100 text-red-800;
+  }
+  
+  .house-slytherin {
+    @apply bg-green-100 text-green-800;
+  }
+
+  .house-hufflepuff {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+
+  .house-ravenclaw {
+    @apply bg-blue-100 text-blue-800;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

@@ -14,5 +14,11 @@ export default {
       },
     },
   },
+  safelist: [
+    "house-gryffindor",
+    "house-slytherin",
+    "house-hufflepuff",
+    "house-ravenclaw",
+  ],
   plugins: [],
 } satisfies Config;
